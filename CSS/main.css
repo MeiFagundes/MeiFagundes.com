@@ -11,27 +11,92 @@
 html{
     font-family: 'Segoe UI';
     width: 100vw;
-    min-height: 100vh;
+    
 }
 
 body{
     margin: 0;
+    min-height: 100vh;
+    transition: 200ms ease-in-out;
 }
 
 header{
+    position: sticky;
+    top: 0;
     width: 100%;
-    height: 10em;
+    height: 10vh;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: var(--blue);
+    padding: 1em;
+}
+
+header h1{
+    font-family: 'Segoe UI SemiBold';
+    margin: 0;
+    color: white;
+    font-size: 4vh;
 }
 
 main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1{
+    font-size: 3em;
+}
+
+/* Project List*/
+section.project-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     margin: 3em;
+}
+
+/* ----------- Article ----------------- */
+.project-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2em;
+    margin-bottom: 3em;
+    max-height: 20em;
+    max-width: 70em;
+}
+
+/* ---------- Span de informações do Article -------------- */
+/* Título e Descrição */
+.project-item span:nth-child(1){
+    overflow-y: auto;
+    text-align: justify;
+    margin-right: 2em;
+}
+
+.project-item span:nth-child(1) h3{
+    font-size: 1.8em;
+}
+
+.project-item span:nth-child(1) p{
+    font-size: 1.2em;
+}
+
+
+
+/* ----------- Imagem do Article ----------------- */
+.project-item img{
+    height: 35vh;
+    max-height: 100%;
+    border-radius: 0.4em;
 }
 
 footer{
     width: 100%;
-    height: 15em;
-    position: absolute;
+    height: 30vh;
     bottom: 0;
     background-color: var(--dark-gray);
 }
@@ -49,4 +114,26 @@ footer{
 .shadow-more{
     -webkit-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.5);
     box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.5);
+}
+
+.toolbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.toolbar > *{
+    margin-right: 1em;
+}
+
+.toolbar-inverse{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.toolbar-inverse *{
+    margin-right: 1em;
 }

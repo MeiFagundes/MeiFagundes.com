@@ -1,27 +1,90 @@
-// --- Data --- //
+// --- DOM --- //
 
-let localModeEnabled = false;
+const projectList = document.querySelector(".project-list");
 
-// --- Functions --- //
+// --- DATA --- //
 
-function addProjectToList(project){
-    console.log(project);
-    
-}
+const IMG_SOURCE = "IMGS/";
+const JSON_SOURCE = "JSON/";
+
+let usingLocalHost = false;
+
+// --- FUNCTIONS --- //
 
 function getJSON(src, callback) {
-
-    src = window.location.pathname + src;
+    
+    if (!usingLocalHost)
+        src = "https://meifagundes.github.io/" + src;
+    
     $.getJSON(src, callback);
 }
 
-// --- Code --- //
+function addProjectToList(project){
+
+    let articleEl = document.createElement("article");
+    articleEl.classList = "z-depth-2";
+
+    let spanEl = document.createElement("span");
+
+    let h3El = document.createElement("h3");
+    h3El.innerHTML = project.title;
+    spanEl.appendChild(h3El);
+
+    let pEl = document.createElement("p");
+    pEl.innerHTML = project.desc;
+    spanEl.appendChild(pEl);
+
+    let spanChildEl = document.createElement("span");
+    spanChildEl.classList.add("toolbar");
+
+    let aEl = document.createElement("a");
+    aEl.href = project.location;
+    aEl.innerHTML = "Download";
+    aEl.classList = "btn waves-effect light-blue";
+    let iEl = document.createElement("i");
+    iEl.classList = "material-icons right";
+    iEl.innerHTML = project.locationIcon;
+    aEl.appendChild(iEl);
+    spanChildEl.appendChild(aEl);
+
+    aEl = document.createElement("a");
+    aEl.href = project.source;
+    aEl.innerHTML = "Código Fonte";
+    aEl.classList = "btn waves-effect light-blue";
+    iEl = document.createElement("i");
+    iEl.classList = "material-icons right";
+    iEl.innerHTML = project.sourceIcon;
+    aEl.appendChild(iEl);
+    spanChildEl.appendChild(aEl);
+
+    spanEl.appendChild(spanChildEl);
+    articleEl.appendChild(spanEl);
+
+    let imgEl = document.createElement("img");
+    imgEl.src = IMG_SOURCE + project.img;
+    articleEl.appendChild(imgEl);
+
+    projectList.appendChild(articleEl);
+}
+
+function updateProjectList() {
+
+    getJSON(JSON_SOURCE + "projects.json", 
+        (json) =>{
+            projectList.innerHTML = "";
+            for (const project of json)
+                addProjectToList(project);
+        }
+    );
+}
+
+// --- CODE --- //
 
 if (window.location.pathname == "/") {
-    localModeEnabled = true;
+    usingLocalHost = true;
     console.log("Local mode enabled!");
 }
 else
     console.log(window.location.pathname);
 
-getJSON("JSON/projects.json", addProjectToList);
+updateProjectList();

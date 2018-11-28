@@ -49,6 +49,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 70vh;
 }
 
 main h1{
@@ -64,7 +65,7 @@ section.project-list{
 }
 
 /* ----------- Article ----------------- */
-.project-item{
+.project-list article{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -76,24 +77,24 @@ section.project-list{
 
 /* ---------- Span de informações do Article -------------- */
 /* Título e Descrição */
-.project-item span:nth-child(1){
+.project-list article span:nth-child(1){
     overflow-y: auto;
     text-align: justify;
     margin-right: 2em;
 }
 
-.project-item span:nth-child(1) h3{
+.project-list article span:nth-child(1) h3{
     font-size: 1.8em;
 }
 
-.project-item span:nth-child(1) p{
+.project-list article span:nth-child(1) p{
     font-size: 1.2em;
 }
 
 
 
 /* ----------- Imagem do Article ----------------- */
-.project-item img{
+.project-list article img{
     height: 35vh;
     max-height: 16em;
     border-radius: 0.4em;

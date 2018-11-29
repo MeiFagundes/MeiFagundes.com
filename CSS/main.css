@@ -73,6 +73,7 @@ section.project-list{
     margin-bottom: 3em;
     max-height: 20em;
     max-width: 70em;
+    transition: 300ms ease-in-out;
 }
 
 /* ---------- Span de informações do Article -------------- */

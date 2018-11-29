@@ -6,6 +6,7 @@ const projectList = document.querySelector(".project-list");
 
 const IMG_SOURCE = "IMGS/";
 const JSON_SOURCE = "JSON/";
+const ACCENT_COLOR = "pink accent-2";
 
 let usingLocalHost = false;
 
@@ -22,7 +23,7 @@ function getJSON(src, callback) {
 function addProjectToList(project){
 
     let articleEl = document.createElement("article");
-    articleEl.classList = "z-depth-2";
+    articleEl.classList = "z-depth-2 hoverable";
 
     let spanEl = document.createElement("span");
 
@@ -40,7 +41,7 @@ function addProjectToList(project){
     let aEl = document.createElement("a");
     aEl.href = project.location;
     aEl.innerHTML = "Download";
-    aEl.classList = "btn waves-effect light-blue";
+    aEl.classList = "btn waves-effect " + ACCENT_COLOR;
     let iEl = document.createElement("i");
     iEl.classList = "material-icons right";
     iEl.innerHTML = project.locationIcon;
@@ -50,7 +51,7 @@ function addProjectToList(project){
     aEl = document.createElement("a");
     aEl.href = project.source;
     aEl.innerHTML = "Código Fonte";
-    aEl.classList = "btn waves-effect light-blue";
+    aEl.classList = "btn waves-effect " + ACCENT_COLOR;
     iEl = document.createElement("i");
     iEl.classList = "material-icons right";
     iEl.innerHTML = project.sourceIcon;
@@ -78,7 +79,7 @@ function updateProjectList() {
     );
 }
 
-// --- CODE --- //
+// --- INIT CODE --- //
 
 if (window.location.pathname == "/") {
     usingLocalHost = true;

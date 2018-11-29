@@ -3,16 +3,16 @@
     "desc": "Polaris é um interpretador de frases em inglês que analisa a sintaxe do que foi escrito e, utilizando-a, executa ações pré-implementadas. Foi feito para Windows e escrito em C# usando a .NET FrameWork 4.6.1.",
     "img": "Polaris.jpg",
     "location": "https://github.com/MeiFagundes/Polaris/releases",
-    "locationIcon": "link",
+    "locationIcon": "file_download",
     "source": "https://github.com/MeiFagundes/Polaris",
-    "sourceIcon": "link"
+    "sourceIcon": "code"
 },
 {
     "title": "ListDeclutteringTool",
     "desc": "ListDeclutteringTool é um programa que limpa a formatação e organiza grandes listas, ele facilita principalmente a formatação dados copiados de sites para usos diversos. Foi feito para Windows e escrito em C# usando a .NET FrameWork 4.6.1.",
     "img": "ListDeclutteringTool.jpg",
     "location": "https://github.com/MeiFagundes/ListDeclutteringTool/releases",
-    "locationIcon": "link",
+    "locationIcon": "file_download",
     "source": "https://github.com/MeiFagundes/ListDeclutteringTool",
-    "sourceIcon": "link"
+    "sourceIcon": "code"
 }]

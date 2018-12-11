@@ -40,7 +40,7 @@ function addProjectToList(project){
 
     let aEl = document.createElement("a");
     aEl.href = project.location;
-    aEl.innerHTML = "Download";
+    aEl.innerHTML = project.locationType;
     aEl.classList = "btn waves-effect " + ACCENT_COLOR;
     let iEl = document.createElement("i");
     iEl.classList = "material-icons right";

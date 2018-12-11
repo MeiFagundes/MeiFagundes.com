@@ -3,6 +3,7 @@
     "desc": "Polaris é um interpretador de frases em inglês que analisa a sintaxe do que foi escrito e, utilizando-a, executa ações pré-implementadas. Foi feito para Windows e escrito em C# usando a .NET FrameWork 4.6.1.",
     "img": "Polaris.jpg",
     "location": "https://github.com/MeiFagundes/Polaris/releases",
+    "locationType": "download",
     "locationIcon": "file_download",
     "source": "https://github.com/MeiFagundes/Polaris",
     "sourceIcon": "code"
@@ -12,7 +13,28 @@
     "desc": "ListDeclutteringTool é um programa que limpa a formatação e organiza grandes listas, ele facilita principalmente a formatação dados copiados de sites para usos diversos. Foi feito para Windows e escrito em C# usando a .NET FrameWork 4.6.1.",
     "img": "ListDeclutteringTool.jpg",
     "location": "https://github.com/MeiFagundes/ListDeclutteringTool/releases",
+    "locationType": "download",
     "locationIcon": "file_download",
     "source": "https://github.com/MeiFagundes/ListDeclutteringTool",
+    "sourceIcon": "code"
+},
+{
+    "title": "BioPrantinhas",
+    "desc": "BioPrantinhas é um site de voltado para o ensino de Botânica. O site disponibiliza explicações, imagens e vídeos sobre Briófitas, Pteridófitas, Gimnospermas e Angiospermas",
+    "img": "BioPrantinhas.jpg",
+    "location": "https://bioprantinhas.github.io/",
+    "locationType": "acessar",
+    "locationIcon": "launch",
+    "source": "https://github.com/BioPrantinhas/bioprantinhas.github.io",
+    "sourceIcon": "code"
+},
+{
+    "title": "Sqrt8086",
+    "desc": "Sqrt8086 é um algoritmo para calcular a raiz quadrada de um número com precisão decimal na arquitetura Intel 8086, independente do fato de esta não possuir suporte para Floating Point e estar limitada a 16Bits. Foi escrito em Assembly 8086",
+    "img": "Sqrt8086.jpg",
+    "location": "https://github.com/MeiFagundes/Sqrt8086/releases",
+    "locationType": "download",
+    "locationIcon": "file_download",
+    "source": "https://github.com/MeiFagundes/Sqrt8086",
     "sourceIcon": "code"
 }]

@@ -63,6 +63,7 @@ function addProjectToList(project){
 
     let imgEl = document.createElement("img");
     imgEl.src = IMG_SOURCE + project.img;
+    imgEl.classList = "materialboxed";
     articleEl.appendChild(imgEl);
 
     projectList.appendChild(articleEl);
@@ -85,7 +86,9 @@ function updateProjectList() {
 $(function(){
 
     M.AutoInit();
+
     $(".parallax").parallax();
+    $('.materialboxed').materialbox();
   
   }); 
 

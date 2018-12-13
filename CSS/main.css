@@ -66,9 +66,15 @@ main h1{
 /* Project List*/
 section.project-list{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 3em;
+    align-content: center;
+    margin-top: 3em;
+}
+
+.project-list > .preloader-wrapper{
+    margin-bottom: 3em;
 }
 
 /* ----------- Article ----------------- */
@@ -78,8 +84,8 @@ section.project-list{
     justify-content: space-around;
     padding: 2em;
     margin-bottom: 3em;
-    max-height: 20em;
-    max-width: 70em;
+    max-height: 22em;
+    max-width: 58em;
     transition: 300ms ease-in-out;
 }
 
@@ -97,14 +103,15 @@ section.project-list{
 }
 
 .project-list article span:nth-child(1) p{
-    height: 7em;
+    height: 9.5em;
     overflow-y: auto;
     font-size: 1.2em;
 }
 
 /* ----------- Imagem do Article ----------------- */
 .project-list article img{
-    height: 16em;
+    height: 18em;
+    max-width: 52%;
     border-radius: 0.4em;
 }
 
@@ -118,7 +125,35 @@ section.project-list{
     padding: 3em;
 }*/
 
-/*  MOBILE  */
+/* -----------  DESKTOP MEDIUM ----------- */
+@media only screen and (min-width: 801px) and (max-width: 1800px) {
+    
+    /* Project List*/
+    section.project-list{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        margin: 3em;
+    }
+
+    .project-list article{
+        height: 20em;
+        max-width: 70em;
+    }
+
+    .project-list article span:nth-child(1) p{
+        height: 8em;
+    }
+
+    .project-list article img{
+        height: 16em;
+        max-width: initial;
+    }
+}
+
+
+/* -----------  MOBILE ----------- */
 @media only screen and (max-width: 800px) {
 
     /* Header */
@@ -140,9 +175,14 @@ section.project-list{
         padding-top: 0.55em;
     }
 
+    /* Project List*/
+    section.project-list{
+        margin: 4%;
+    }
+
+
     /* ----------- Article ----------------- */
     .project-list article{
-
         max-height: initial;
         flex-direction: column;
         align-content: center;
@@ -165,6 +205,7 @@ section.project-list{
     /* ----------- Imagem do Article ----------------- */
     .project-list article img{
         height: initial;
+        max-width: initial;
         width: 100%;
         border-radius: 0.4em;
     }

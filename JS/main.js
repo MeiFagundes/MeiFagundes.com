@@ -81,6 +81,18 @@ function updateProjectList() {
 
 // --- INIT CODE --- //
 
+
+$(function(){
+
+    M.AutoInit();
+    $(".parallax").parallax();
+  
+  }); 
+
+/*$(document).ready(() => {
+    
+})*/
+
 if (window.location.pathname == "/") {
     usingLocalHost = true;
     console.log("Local mode enabled!");

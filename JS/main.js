@@ -4,11 +4,10 @@ const projectList = document.querySelector(".project-list");
 
 // --- DATA --- //
 
-const IMG_SOURCE = "IMGS/";
+const IMG_SOURCE = "Assets/Images/";
 const JSON_SOURCE = "JSON/";
 const ACCENT_COLOR = "pink accent-2";
-
-let usingLocalHost = false;
+const usingLocalHost = false;
 
 // --- FUNCTIONS --- //
 
@@ -21,6 +20,7 @@ function getJSON(src, callback) {
 }
 
 function addProjectToList(project){
+
 
     let articleEl = document.createElement("article");
     articleEl.classList = "z-depth-2 hoverable";
@@ -80,27 +80,15 @@ function updateProjectList() {
     );
 }
 
-// --- INIT CODE --- //
+// --- INIT --- //
+$(() => {
 
-
-$(function(){
+    updateProjectList();
 
     M.AutoInit();
-
     $(".parallax").parallax();
-    $('.materialboxed').materialbox();
-  
-  }); 
-
-/*$(document).ready(() => {
+    setTimeout(() => {
+        $(".materialboxed").materialbox();
+    }, 1500);
     
-})*/
-
-if (window.location.pathname == "/") {
-    usingLocalHost = true;
-    console.log("Local mode enabled!");
-}
-else
-    console.log(window.location.pathname);
-
-updateProjectList();
+  }); 

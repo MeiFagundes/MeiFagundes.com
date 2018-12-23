@@ -33,10 +33,11 @@ header{
 }
 
 header h1{
-    font-family: 'Segoe UI SemiBold';
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     color: white;
     font-size: 180%;
+    font-weight: 500;
 }
 
 .parallax-container{
@@ -46,7 +47,7 @@ header h1{
 
 .parallax-container h1{
     color: white;
-    padding-top: 0.1em;
+    padding-top: 0.9em;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -145,6 +146,10 @@ section.project-list{
         max-width: 70em;
     }
 
+    .project-list article:last-child{
+        margin-bottom: 0;
+    }
+
     .project-list article span:nth-child(1) p{
         height: 8em;
         max-width: 34em;
@@ -181,7 +186,7 @@ section.project-list{
 
     /* Project List*/
     section.project-list{
-        margin: 4%;
+        margin: 4vw;
     }
 
 
@@ -191,6 +196,11 @@ section.project-list{
         flex-direction: column;
         align-content: center;
         justify-content: center;
+        margin-bottom: 4vw;
+    }
+
+    .project-list article:last-child{
+        margin-bottom: 0;
     }
 
     /* Título e Descrição */

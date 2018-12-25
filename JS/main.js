@@ -36,7 +36,7 @@ function addProjectToList(project){
     spanEl.appendChild(pEl);
 
     let spanChildEl = document.createElement("span");
-    spanChildEl.classList.add("toolbar");
+    spanChildEl.classList = "row-container";
 
     let aEl = document.createElement("a");
     aEl.href = project.location;

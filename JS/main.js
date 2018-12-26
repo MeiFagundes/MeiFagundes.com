@@ -4,10 +4,10 @@ const projectList = document.querySelector(".project-list");
 
 // --- DATA --- //
 
-const IMG_SOURCE = "Assets/Images/";
+const IMG_SOURCE = "Images/";
 const JSON_SOURCE = "JSON/";
 const ACCENT_COLOR = "pink accent-2";
-const usingLocalHost = false;
+const usingLocalHost = true;
 
 // --- FUNCTIONS --- //
 

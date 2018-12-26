@@ -1,7 +1,7 @@
 :root{
-    --blue: #00aeff;
-    --dark-gray: #1d1d1d;
-    --pink-accent: #ff4081;
+    --blue: rgb(0, 174, 255);
+    --dark-gray: rgb(29, 29, 29);
+    --pink-accent: rgb(254, 66, 129);
 }
 
 html{
@@ -20,11 +20,12 @@ h1, h2, h3{
 
 header{
     background-color: var(--pink-accent);
+    background-image: linear-gradient(var(--pink-accent), rgb(226, 34, 95));
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
     width: 100%;
-    height: 5em;
+    height: 4em;
     z-index: 3;
     display: flex;
     align-items: center;
@@ -116,7 +117,7 @@ section.project-list{
 /* ----------- Imagem do Article ----------------- */
 .project-list article img{
     height: 18em;
-    max-width: 27em;
+    max-width: 29em;
     border-radius: 0.4em;
 }
 

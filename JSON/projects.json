@@ -19,6 +19,16 @@
     "sourceIcon": "code"
 },
 {
+    "title": "DexDB",
+    "desc": "DexDB é um projeto conceitual e funcional de uma PokeDex para ser usada no navegador com Cliente e Server + DataBase. Foi escrito em JavaScript, Java e MySQL. Seu design foi inspirado no Material Design da Google.",
+    "img": "DexDB.jpg",
+    "location": "https://github.com/MeiFagundes/DexDB/archive/master.zip",
+    "locationType": "download",
+    "locationIcon": "file_download",
+    "source": "https://github.com/MeiFagundes/DexDB",
+    "sourceIcon": "code"
+},
+{
     "title": "BioPrantinhas",
     "desc": "BioPrantinhas é um site de voltado para o ensino de Botânica. O site disponibiliza explicações, imagens e vídeos sobre Briófitas, Pteridófitas, Gimnospermas e Angiospermas",
     "img": "BioPrantinhas.jpg",

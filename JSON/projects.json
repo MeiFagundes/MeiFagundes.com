@@ -1,11 +1,21 @@
 [{
-    "title": "Polaris",
-    "desc": "Polaris é um interpretador de frases em inglês que analisa a sintaxe do que foi escrito e, utilizando-a, executa ações pré-implementadas. Foi feito para Windows e escrito em C# usando a .NET FrameWork 4.6.1.",
-    "img": "Polaris.jpg",
-    "location": "https://github.com/MeiFagundes/Polaris/releases",
+    "title": "Polaris Core",
+    "desc": "Polaris é um interpretador de frases em inglês que analisa a sintaxe do que foi escrito e, utilizando-a, executa ações pré-implementadas. Foi construido na .NET Framework 4.6.1 e escrito em C#",
+    "img": "PolarisCore.jpg",
+    "location": "https://github.com/MeiFagundes/Polaris-Core/releases",
     "locationType": "download",
     "locationIcon": "file_download",
-    "source": "https://github.com/MeiFagundes/Polaris",
+    "source": "https://github.com/MeiFagundes/Polaris-Core",
+    "sourceIcon": "code"
+},
+{
+    "title": "Polaris Server",
+    "desc": "Polaris Server é uma RESTful Web API para a utilização das funções cognitivas do Polaris Core através de requisições HTTP. Foi construida na Framework ASP.NET Core escrita em C#.",
+    "img": "PolarisServer.jpg",
+    "location": "https://github.com/MeiFagundes/Polaris-Server/releases",
+    "locationType": "download",
+    "locationIcon": "file_download",
+    "source": "https://github.com/MeiFagundes/Polaris-Server",
     "sourceIcon": "code"
 },
 {

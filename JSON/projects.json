@@ -1,26 +1,27 @@
-[{
-    "title": "Polaris Core",
-    "desc": "Polaris é um interpretador de frases em inglês que analisa a sintaxe do que foi escrito e, utilizando-a, executa ações pré-implementadas. Foi construido na .NET Framework 4.6.1 e escrito em C#",
-    "img": "PolarisCore.jpg",
-    "location": "https://github.com/MeiFagundes/Polaris-Core/releases",
+[
+{
+    "title": "Starlight",
+    "desc": "Uma Engine de Natural Language Processing (NLP) que incorpora Machine Learning através da framework ML.NET. O processamento é feito através de Datasets para treinamento da IA.",
+    "img": "Starlight.jpg",
+    "location": "https://github.com/MeiFagundes/Starlight/releases",
     "locationType": "download",
     "locationIcon": "file_download",
-    "source": "https://github.com/MeiFagundes/Polaris-Core",
+    "source": "https://github.com/MeiFagundes/Starlight",
     "sourceIcon": "code"
 },
 {
-    "title": "Polaris Server",
-    "desc": "Polaris Server é uma RESTful Web API para a utilização das funções cognitivas do Polaris Core através de requisições HTTP. Foi construida na Framework ASP.NET Core escrita em C#.",
-    "img": "PolarisServer.jpg",
-    "location": "https://github.com/MeiFagundes/Polaris-Server/releases",
-    "locationType": "download",
-    "locationIcon": "file_download",
-    "source": "https://github.com/MeiFagundes/Polaris-Server",
+    "title": "PolarisAI",
+    "desc": "Uma Engine/RESTful API de processamento de requisições e Assistente Pessoal construida usando as funções cognitivas do projeto Starlight. Um cliente para Browsers está atualmente disponível.",
+    "img": "PolarisAI.jpg",
+    "location": "https://meifagundes.github.io/PolarisAI-Web-Client/",
+    "locationType": "abrir no browser",
+    "locationIcon": "launch",
+    "source": "https://github.com/MeiFagundes/PolarisAI",
     "sourceIcon": "code"
 },
 {
     "title": "ListDeclutteringTool",
-    "desc": "ListDeclutteringTool é um programa que limpa a formatação e organiza grandes listas, ele facilita principalmente a formatação dados copiados de sites para usos diversos. Foi feito para Windows e escrito em C# usando a .NET FrameWork 4.6.1.",
+    "desc": "ListDeclutteringTool é um programa para ajudar a limpar, formatar e organizar grandes listas de conteúdo, ele facilita principalmente a formatação dados copiados de sites para usos diversos. Foi feito para Windows e escrito em C# usando a .NET FrameWork 4.6.1.",
     "img": "ListDeclutteringTool.jpg",
     "location": "https://github.com/MeiFagundes/ListDeclutteringTool/releases",
     "locationType": "download",

@@ -13,8 +13,8 @@
     "title": "PolarisAI",
     "desc": "Uma Engine/RESTful API de processamento de requisições e Assistente Pessoal construida usando as funções cognitivas do projeto Starlight. Um cliente para Browsers está atualmente disponível.",
     "img": "PolarisAI.jpg",
-    "location": "https://meifagundes.me/PolarisAI-Dev/",
-    "locationType": "abrir no browser",
+    "location": "https://meifagundes.me/PolarisAI-Web/",
+    "locationType": "testar",
     "locationIcon": "launch",
     "source": "https://github.com/MeiFagundes/PolarisAI",
     "sourceIcon": "code"

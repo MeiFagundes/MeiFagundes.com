@@ -14,7 +14,7 @@ const usingLocalHost = false;
 async function getJSON(src, callback) {
     
     if (!usingLocalHost)
-        src = "https://meifagundes.me/" + src;
+        src = "http://meifagundes.me/" + src;
     
     let response = await fetch(src);
     callback(await response.json());

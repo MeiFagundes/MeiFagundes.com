@@ -11,12 +11,13 @@ const usingLocalHost = false;
 
 // --- FUNCTIONS --- //
 
-function getJSON(src, callback) {
+async function getJSON(src, callback) {
     
     if (!usingLocalHost)
-        src = "https://meifagundes.github.io/" + src;
+        src = "https://meifagundes.me/" + src;
     
-    $.getJSON(src, callback);
+    let response = await fetch(src);
+    callback(await response.json());
 }
 
 function addProjectToList(project){

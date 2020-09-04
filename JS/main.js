@@ -12,15 +12,15 @@ const usingLocalHost = false;
 // --- FUNCTIONS --- //
 
 async function getJSON(src, callback) {
-    
+
     if (!usingLocalHost)
-        src = "https://meifagundes.me/" + src;
-    
+        src = "https://meifagundes.com/" + src;
+
     let response = await fetch(src);
     callback(await response.json());
 }
 
-function addProjectToList(project){
+function addProjectToList(project) {
 
 
     let articleEl = document.createElement("article");
@@ -72,8 +72,8 @@ function addProjectToList(project){
 
 function updateProjectList() {
 
-    getJSON(JSON_SOURCE + "projects.json", 
-        (json) =>{
+    getJSON(JSON_SOURCE + "projects.json",
+        (json) => {
             projectList.innerHTML = "";
             for (const project of json)
                 addProjectToList(project);
@@ -91,5 +91,5 @@ $(() => {
     setTimeout(() => {
         $(".materialboxed").materialbox();
     }, 1500);
-    
-  }); 
+
+}); 

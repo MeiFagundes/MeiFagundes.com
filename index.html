@@ -1,117 +1,33 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Mei Fagundes</title>
-    <meta name="description" content="Site pessoal com os principais projetos desenvolvidos">
-    <meta name="author" content="Mei Fagundes">
-    <meta name="keywords" content="Mei, Fagundes, projects, projetos, portfolio">
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
 
-    <!-- CSS import -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" type="text/css" href="CSS/materialize.min.css" />
-    <link rel="stylesheet" type="text/css" href="https://meifagundes.com/Mei.css/Mei.min.css" />
-    <link rel="stylesheet" type="text/css" href="CSS/main.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="meifagundesdotcom">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>meifagundesdotcom</title>
+  <link rel="manifest" href="manifest.json">
 </head>
-
 <body>
-
-    <!-- Header -->
-    <header class="shadow-more">
-        <h1 class="text-shadow-less">MeiFagundes.com</h1>
-    </header>
-
-    <!-- Main container -->
-    <main>
-        <!-- Parallax Container -->
-        <div class="parallax-container">
-            <div class="parallax"><img src="Images/background.jpg"></div>
-            <h1 class="text-shadow-more">Portfólio</h1>
-        </div>
-
-        <!-- Project List Container -->
-        <section class="project-list">
-
-            <!-- Preloader (Spinning loading circle) -->
-            <div class="preloader-wrapper big active">
-                <div class="spinner-layer spinner">
-                    <div class="circle-clipper left">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="gap-patch">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="circle-clipper right">
-                        <div class="circle"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Parallax Container -->
-        <div class="parallax-container">
-            <div class="parallax"><img src="Images/background.jpg"></div>
-        </div>
-
-        <!-- 'To top' fixed button -->
-        <div class="fixed-action-btn">
-            <a href="#top" class="btn-floating btn-large pink accent-2" title="Ir para o topo">
-                <i class="large material-icons">arrow_upward</i>
-            </a>
-        </div>
-    </main>
-
-    <!-- Footer -->
-    <footer class="page-footer blue-grey darken-4 shadow-more">
-        <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="white-text text-shadow-more">
-                        MeiFagundes.com
-                    </h5>
-                    <p class="grey-text text-lighten-4 text-shadow">
-                        Site com os principais projetos pessoais desenvolvidos.
-                    </p>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text text-shadow-more">Contato</h5>
-                    <ul>
-                        <li><a class="grey-text text-lighten-3 text-shadow" href="mailto:mei@meifagundes.com">
-                                Email
-                            </a></li>
-                        <li><a class="grey-text text-lighten-3 text-shadow" href="https://github.com/MeiFagundes">
-                                GitHub
-                            </a></li>
-                        <li><a class="grey-text text-lighten-3 text-shadow"
-                                href="https://www.linkedin.com/in/meifagundes/">
-                                LinkedIn
-                            </a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-copyright blue-grey darken-3">
-            <div class="container text-shadow-less">
-                Mei Fagundes, 2020. Background image by @lianamikah.
-                <a class="grey-text text-lighten-4 right text-shadow-less"
-                    href="https://github.com/MeiFagundes/MeiFagundes.github.io">Código Fonte</a>
-            </div>
-        </div>
-    </footer>
-
-    <!-- JavaScript import -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="JS/materialize.min.js"></script>
-    <script src="JS/main.js"></script>
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js');
+      });
+    }
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
 </body>
-
 </html>

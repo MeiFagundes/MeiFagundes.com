@@ -20,8 +20,8 @@ const RESOURCES = {
 "assets/assets/images/Sqrt8086.jpg": "2cdeac02efdeb6730feedc93e9ed3cbe",
 "assets/assets/images/Starlight.jpg": "a41d7b2d99e90e0f62493807d7f61df1",
 "assets/FontManifest.json": "c241d263772c5578e40e7d443c8b14da",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "c6d84fa19880243540dd20e3a308158e",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"assets/NOTICES": "c5d444adac9e3662f65fca290b546d75",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/android-icon-144x144.png": "2a38a50f4f90dc800b50e6bf68bac979",
 "icons/android-icon-192x192.png": "3f8bc2350f91b5989bc9035e87fd9250",
@@ -40,23 +40,23 @@ const RESOURCES = {
 "icons/apple-icon-76x76.png": "6746129fddcf7d77b1ec3fa2115b8daf",
 "icons/apple-icon-precomposed.png": "ebde967b2fbe40d0067bb95b4bcba75a",
 "icons/apple-icon.png": "ebde967b2fbe40d0067bb95b4bcba75a",
-"icons/browserconfig.xml": "653d077300a12f09a69caeea7a8947f8",
+"icons/browserconfig.xml": "97775b1fd3b6e6c13fc719c2c7dd0ffe",
 "icons/favicon-16x16.png": "e3235456bdb0dc31aafddab3d1e20634",
 "icons/favicon-32x32.png": "01666af0702f210cb34940de3af89f1c",
 "icons/favicon-96x96.png": "d94327b3c574a3bb277c17c126fbcf17",
 "icons/favicon.ico": "74ed789dbaf367a587aa137dc80831b5",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"icons/manifest.json": "b58fcfa7628c9205cb11a1b2c3e8f99a",
+"icons/manifest.json": "e50e6a1c9ed6452635d3211f39501e0d",
 "icons/ms-icon-144x144.png": "2a38a50f4f90dc800b50e6bf68bac979",
 "icons/ms-icon-150x150.png": "1cfbeace14d14bcdcf94794e8aa7ae0c",
 "icons/ms-icon-310x310.png": "19f0d5d1f69bb33b390547690894f573",
 "icons/ms-icon-70x70.png": "8bf084618096ff0e0c68122411e71f65",
-"index.html": "c570f17629242fc330a79bda1f729164",
-"/": "c570f17629242fc330a79bda1f729164",
-"main.dart.js": "81f4a053730ad1978ad21fbd05d66a44",
+"index.html": "97f562b66a616dbfaebdab7d88941f3d",
+"/": "97f562b66a616dbfaebdab7d88941f3d",
+"main.dart.js": "6712076db8f717060238105f2d89941d",
 "manifest.json": "9e4c6bceef4e0f5a16da41095e839ba1",
-"version.json": "4b845e79c4298080cd456fd3f0722812"
+"version.json": "c768410f521a47864e2d43f0ec2fd71a"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -74,7 +74,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
@@ -200,7 +200,7 @@ async function downloadOffline() {
     }
     currentContent[key] = true;
   }
-  for (var resourceKey in Object.keys(RESOURCES)) {
+  for (var resourceKey of Object.keys(RESOURCES)) {
     if (!currentContent[resourceKey]) {
       resources.push(resourceKey);
     }

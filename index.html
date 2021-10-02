@@ -22,7 +22,6 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="meifagundesdotcom">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png">
@@ -48,11 +47,27 @@
 </head>
 
 <body>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyB5RVQmGCpXxoPz6klEKKIpmFRkPEVBrTw",
+      authDomain: "meifagundesdotcom.firebaseapp.com",
+      projectId: "meifagundesdotcom",
+      storageBucket: "meifagundesdotcom.appspot.com",
+      messagingSenderId: "97422408923",
+      appId: "1:97422408923:web:1fd125f0ff4c590d25e0fe",
+      measurementId: "G-5XR2SRFNB2"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = '1926310267';
+    var serviceWorkerVersion = '2468658958';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {

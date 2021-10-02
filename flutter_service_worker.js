@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "84f9a4bbc2dde3b12d8ac1d6198a929d",
+  "assets/AssetManifest.json": "061c3031b0eb7c7e738e98711cb8edd0",
 "assets/assets/fonts/CustomIcons.ttf": "f9a571d6a7607a6c4c1495115c6a815e",
 "assets/assets/fonts/OpenSans-Bold.ttf": "1025a6e0fb0fa86f17f57cc82a6b9756",
 "assets/assets/fonts/OpenSans-ExtraBold.ttf": "fb7e3a294cb07a54605a8bb27f0cd528",
@@ -21,7 +21,7 @@ const RESOURCES = {
 "assets/assets/images/Starlight.jpg": "a41d7b2d99e90e0f62493807d7f61df1",
 "assets/FontManifest.json": "c241d263772c5578e40e7d443c8b14da",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"assets/NOTICES": "c5d444adac9e3662f65fca290b546d75",
+"assets/NOTICES": "80294b264d19c32e086428f1663d0dd1",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/android-icon-144x144.png": "2a38a50f4f90dc800b50e6bf68bac979",
 "icons/android-icon-192x192.png": "3f8bc2350f91b5989bc9035e87fd9250",
@@ -52,11 +52,11 @@ const RESOURCES = {
 "icons/ms-icon-150x150.png": "1cfbeace14d14bcdcf94794e8aa7ae0c",
 "icons/ms-icon-310x310.png": "19f0d5d1f69bb33b390547690894f573",
 "icons/ms-icon-70x70.png": "8bf084618096ff0e0c68122411e71f65",
-"index.html": "0ae244d252a49672db32dcdc1e19443e",
-"/": "0ae244d252a49672db32dcdc1e19443e",
-"main.dart.js": "ff0e7c7a99a763cbf941b7c38999d78a",
+"index.html": "ba1fbfa34fd81c053a848c620fc0d5b0",
+"/": "ba1fbfa34fd81c053a848c620fc0d5b0",
+"main.dart.js": "5627a046f9f2e5f882fb6d9e76a92dd0",
 "manifest.json": "dec49619f757292da614ebcc4c979d07",
-"version.json": "186833c03af7002e3187d253d46efdc1"
+"version.json": "50f6679c7fd4c1065b769d6f057f3c4d"
 };
 
 // The application shell files that are downloaded before a service worker can

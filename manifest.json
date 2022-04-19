@@ -1,23 +1,23 @@
 {
-    "name": "meifagundesdotcom",
-    "short_name": "meifagundesdotcom",
-    "start_url": ".",
-    "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "Formada no CEFET-MG e desenvolvedora líder na DTI Digital - Projetos pessoais",
-    "orientation": "portrait-primary",
-    "prefer_related_applications": false,
-    "icons": [
-        {
-            "src": "icons/Icon-192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "icons/Icon-512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        }
-    ]
+  "name": "meifagundesdotcom",
+  "short_name": "meifagundesdotcom",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0175C2",
+  "theme_color": "#0175C2",
+  "description": "Formada no CEFET-MG e Consultora de Software na Thoughtworks - Projetos pessoais",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icons/Icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/Icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }

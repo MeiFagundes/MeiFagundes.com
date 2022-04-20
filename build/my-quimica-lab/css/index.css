@@ -1,0 +1,142 @@
+:root {
+    --iconSize: calc(15px + 1.7vw);
+    --canvasWidth: 800px;
+    --canvasHeight: 600px;
+}
+
+* {
+    user-select: none;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(20, 20, 20);
+}
+
+main {
+    margin: 0 auto;
+    height: var(--canvasHeight);
+    width: var(--canvasWidth);
+    position: relative;
+}
+
+p {
+    margin: 0;
+    font-size: calc(16px + .4vw);
+    color: rgb(242, 255, 250);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.60);
+}
+
+section {
+    font-family: 'Press Start 2P', cursive;
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #FAFAFA;
+    border: 5px solid #0E4C07;
+    z-index: 1000;
+}
+
+#closeQuestionScreenBtn {
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    position: absolute;
+    top: -1vw;
+    right: -.5vw;
+    padding: .25em;
+    color: white;
+    background: #A24C4C;
+    font-size: calc(16px + .4vw);
+    text-align: center;;
+    transition: 100ms;
+}
+
+#closeQuestionScreenBtn:hover {
+    background: #8A1F1F;
+}
+
+section > span {
+    cursor: help;
+    color: inherit;
+    font-family: inherit;
+    transition: 100ms;
+    display: block;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.60);
+}
+
+section p {
+    color: inherit;
+    font-size: 1em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.60);
+    letter-spacing: -1px;
+    line-height: 1.5em;
+    margin: 2vw;
+    text-align: justify;
+}
+
+section h3, section > span {
+    background-color: rgba(11, 74, 13, 0.8);
+    border-radius: 0.5em;
+    padding: 1em 2em;
+    margin: 1vw;
+}
+
+section h3 {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.60);
+}
+
+section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+section ul li {
+    cursor: pointer;
+    background-color: rgba(13, 99, 13, 0.8);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.60);
+    border-radius: 0.5em;
+    margin: 1vw;
+    padding: 1em;
+    transition: 200ms;
+}
+
+section ul li > span {
+    background: green;
+    padding: .5em;
+    border-radius: 50%;
+}
+
+section ul li:hover, section > span:hover {
+    background: rgb(1, 86, 12);
+}
+
+main > ul {
+    background-color: rgba(0, 0, 0, 0.55);
+    border-radius: 5em;
+    padding: 1em;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: .5vw;
+}
+
+main > ul li {
+   display: inline-block;
+   list-style: none;
+   height: var(--iconSize);
+}
+
+main > ul li p {
+    font-family: 'Press Start 2P', cursive;
+    line-height: var(--iconSize);
+    margin-left: calc(1.2 * var(--iconSize));
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.60);
+}
+main > ul li > img {
+    width: var(--iconSize);
+    position: absolute;
+    pointer-events: none;
+}

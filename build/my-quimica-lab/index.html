@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jogo didático para ensino de química orgânica elaborada por alunos e professores do CEFET-MG.">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>My Química Lab</title>
+</head>
+
+<body>
+    <main>
+        <section id="questionScreen">
+            <button id="closeQuestionScreenBtn">X</button>
+            <h3>Questão 01 (1x)</h3>
+            <p>Essa é a tela de questões. Se você, usuário, está vendo esse texto,
+                então provavelmente algo deu errado. Já que você está aqui, vou aproveitar
+                e desejar uma ótima experiência com esse jogo. Foi feito através de muito esforço. :)
+            </p>
+            <img>
+            <ul>  
+            </ul>
+            <span>Aperte 'E' para pular</span>
+        </section>
+        <ul>
+            <li>
+                <img src="Assets/Icons/rcAtom.png" title="Reagentes">
+                <p data-icon="Assets/Icons/rcAtom.png" name="rc_reagents">0</p>
+            </li>
+            <li>
+                <img src="Assets/Icons/rcFlask.png" title="Vidrarias">
+                <p data-icon="Assets/Icons/rcAtom.png" name="rc_glassware">0</p>
+            </li>
+            <li>
+                <img src="Assets/Icons/rcConstruction.png" title="Materiais de construção">
+                <p data-icon="Assets/Icons/rcAtom.png" name="rc_constructionmaterial">0</p>
+            </li>
+        </ul>
+        <canvas>
+        </canvas>
+    </main>
+    <script src="Phaser/phaser.min.js"></script>
+    <script src="js/Util/CharacterUtil.js"></script>
+    <script src="js/Util/RandomUtil.js"></script>
+    <script src="js/Util/ArrayUtil.js"></script>
+    <script src="js/Controllers/QuestionModalController.js"></script>
+    <script src="js/Controllers/BrowserSupportController.js"></script>
+    <script src="js/Controllers/MovementController.js"></script>
+    <script src="js/Controllers/InputController.js"></script>
+    <script src="js/Controllers/TooltipController.js"></script>
+    <script src="js/Controllers/ResourceController.js"></script>
+    <script src="js/Handlers/AnswerHandler.js"></script>
+    <script src="js/Proxy/JSONProxy.js"></script>
+    <script src="js/Model/Player.js"></script>
+    <script src="js/Model/ResourceCenter.js"></script>
+    <script src="js/Model/QuestionType.js"></script>
+    <script src="js/Model/FunctionalGroupQuestionType.js"></script>
+    <script src="js/Model/HybridizationQuestionType.js"></script>
+    <script src="js/Model/NomenclatureQuestionType.js"></script>
+    <script src="js/Controllers/QuestionController.js"></script>
+    <script src="js/Controllers/QuestionControllerSingleton.js"></script>
+    <script src="js/Main.js"></script>
+    
+</body>
+
+</html>

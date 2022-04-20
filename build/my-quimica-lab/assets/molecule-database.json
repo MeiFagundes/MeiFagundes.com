@@ -1,0 +1,155 @@
+[
+ {
+   "Nome Informal": "Ureia",
+   "nomeIUPAC": "Diaminometanal",
+   "formulaEstrutural": "NH2CONH2",
+   "formulaMolecular": "CO(NH2)2",
+   "grupoFuncional": "Aldeído",
+   "tipoHibridizacao": "sp2",
+   "aplicacaoPratica": "forma-se principalmente no fígado, sendo filtrada pelos rins e eliminada pela urina ou pelo suor"
+ },
+ {
+   "Nome Informal": null,
+   "nomeIUPAC": "Ácido propanoico",
+   "formulaEstrutural": "CH3CH2CO2H",
+   "formulaMolecular": "C3H6O2",
+   "grupoFuncional": "Ácido Carboxílico",
+   "tipoHibridizacao": "sp3, sp3, sp2",
+   "aplicacaoPratica": "é usado na indústria alimentícia para evitar o amarelecimento do pão"
+ },
+ {
+   "Nome Informal": null,
+   "nomeIUPAC": "Etanol",
+   "formulaEstrutural": "CH3CH2OH",
+   "formulaMolecular": "C2H6O",
+   "grupoFuncional": "Álcool",
+   "tipoHibridizacao": "sp3, sp3",
+   "aplicacaoPratica": "é encontrado em bebidas e utilizado como combustível de motores de explosão"
+ },
+ {
+   "Nome Informal": null,
+   "nomeIUPAC": "Pentan-2-ona",
+   "formulaEstrutural": "CH3CH2CH2COCH3",
+   "formulaMolecular": "C5H10O",
+   "grupoFuncional": "Cetona",
+   "tipoHibridizacao": "sp3, sp3, sp3, sp2, sp3",
+   "aplicacaoPratica": "é usado em quantidades muito pequenas como um aditivo alimentar flavorizante"
+ },
+ {
+   "Nome Informal": "Etanal",
+   "nomeIUPAC": "Acetaldeído",
+   "formulaEstrutural": "CH3COH",
+   "formulaMolecular": "C2H4O",
+   "grupoFuncional": "Aldeído",
+   "tipoHibridizacao": "sp3, sp2",
+   "aplicacaoPratica": "é um dos produtos da metabolização do etanol no organismo. É a substância responsável pela ressaca"
+ },
+ {
+   "Nome Informal": "Polietileno",
+   "nomeIUPAC": "Polieteno",
+   "formulaEstrutural": "(CH2CH2)n",
+   "formulaMolecular": "(CH2-CH2)n",
+   "grupoFuncional": "Alcano",
+   "tipoHibridizacao": "(sp3, sp3)n",
+   "aplicacaoPratica": "é o polímero mais simples quimicamente e um dos tipos de plástico mais comuns"
+ },
+ {
+   "Nome Informal": null,
+   "nomeIUPAC": "Butano",
+   "formulaEstrutural": "CH3CH2CH2CH3",
+   "formulaMolecular": "\tC4H10",
+   "grupoFuncional": "Alcano",
+   "tipoHibridizacao": "sp3, sp3, sp3, sp3",
+   "aplicacaoPratica": "está presente no gás liquefeito de petróleo (GLP)"
+ },
+ {
+   "Nome Informal": null,
+   "nomeIUPAC": "1-Buteno",
+   "formulaEstrutural": "CH2CHCH2CH3",
+   "formulaMolecular": "C4H8",
+   "grupoFuncional": "Alceno",
+   "tipoHibridizacao": "sp2, sp2, sp3, sp3",
+   "aplicacaoPratica": "é usado como a síntese do butadieno para a borracha artificial"
+ },
+ {
+   "Nome Informal": "Benzeno",
+   "nomeIUPAC": "Ciclohex-1,3,5-trieno",
+   "formulaEstrutural": "CHCHCHCHCHCH",
+   "formulaMolecular": "C6H6",
+   "grupoFuncional": "Aromático",
+   "tipoHibridizacao": "sp2, sp2, sp2, sp2, sp2, sp2",
+   "aplicacaoPratica": "é uma substância usada como solvente (de iodo, enxofre, graxas, ceras, etc.)"
+ },
+ {
+   "Nome Informal": "Acetileno",
+   "nomeIUPAC": "Etino",
+   "formulaEstrutural": "CHCH",
+   "formulaMolecular": "C2H2",
+   "grupoFuncional": "Hidrocarboneto",
+   "tipoHibridizacao": "sp",
+   "aplicacaoPratica": "é matéria prima para a produção de fibras têxteis, borrachas sintéticas e polímeros"
+ },
+ {
+   "Nome Informal": null,
+   "nomeIUPAC": "Etano",
+   "formulaEstrutural": "CH3CH3",
+   "formulaMolecular": "C2H6",
+   "grupoFuncional": "Hidrocarboneto",
+   "tipoHibridizacao": "sp3",
+   "aplicacaoPratica": "é usado como gás refrigerante para produzir tempraturas criogênicas em sistemas de refrigeração"
+ },
+ {
+   "Nome Informal": "Ácido adípico",
+   "nomeIUPAC": "Ácido hexanodióico",
+   "formulaEstrutural": "HOOC(CH2)3COOH",
+   "formulaMolecular": "C6H10O4",
+   "grupoFuncional": "Ácido Carboxílico",
+   "tipoHibridizacao": "sp2, sp3",
+   "aplicacaoPratica": "é uma das matérias primas na fabricação do náilon"
+ },
+ {
+   "Nome Informal": "Acetona",
+   "nomeIUPAC": "Propanona",
+   "formulaEstrutural": "CH3OCH3",
+   "formulaMolecular": "C3H6O",
+   "grupoFuncional": "Cetona",
+   "tipoHibridizacao": "sp2, sp3",
+   "aplicacaoPratica": "é vendida comercialmente como solvente de esmaltes de unha"
+ },
+ {
+   "Nome Informal": "Acetato de amila",
+   "nomeIUPAC": "Etanoato de pentila",
+   "formulaEstrutural": "CH3OCO(CH2)4CH3",
+   "formulaMolecular": "C7H14O2",
+   "grupoFuncional": "Éster",
+   "tipoHibridizacao": "sp2, sp3",
+   "aplicacaoPratica": "é um composto que dá o aroma e sabor de banana à balas, iogurtes, bolos etc"
+ },
+ {
+   "Nome Informal": "Éter etílico",
+   "nomeIUPAC": "Etoxietano",
+   "formulaEstrutural": "CH3CH2OCH2CH3",
+   "formulaMolecular": "(C2H5)2O",
+   "grupoFuncional": "Éter",
+   "tipoHibridizacao": "sp3",
+   "aplicacaoPratica": "era usado como anestésico em pacientes, mas foi abandonado devido ao alto riscod e explosão"
+ },
+ {
+   "Nome Informal": "Álcool de madeira",
+   "nomeIUPAC": "Metanol",
+   "formulaEstrutural": "CH3OH",
+   "formulaMolecular": "CH4O",
+   "grupoFuncional": "Álcool",
+   "tipoHibridizacao": "sp3",
+   "aplicacaoPratica": "é usado como solvente de tintas e verniz"
+ },
+ {
+   "Nome Informal": "Álcool vinílico",
+   "nomeIUPAC": "Etenol",
+   "formulaEstrutural": "CH2CH2OH",
+   "formulaMolecular": "C2H4O",
+   "grupoFuncional": "Enol",
+   "tipoHibridizacao": "sp2",
+   "aplicacaoPratica": "é utilizado como odorizante nas indústrias farmacêuticas e alimentícias"
+ }
+]

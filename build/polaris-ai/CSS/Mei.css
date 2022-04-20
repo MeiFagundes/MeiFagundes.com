@@ -1,0 +1,77 @@
+/*
+* Mei.css is a minimal CSS framework with utilities for my personal projects.
+* v251218
+*/
+
+/* Shadow */
+
+.shadow-less{
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+.shadow{
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.5);
+}
+
+.shadow-more{
+    -webkit-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.5);
+}
+
+/* Text Shadow */
+
+.text-shadow-less{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.60);
+}
+
+.text-shadow{
+    text-shadow: 1px 1px 3px black;
+}
+
+.text-shadow-more{
+    text-shadow: 1px 1px 4px black;
+}
+
+/* Row / Column Container */
+
+.row-container, .row-container-reverse,
+.column-container, .column-container-reverse{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
+
+.row-container{
+    flex-direction: row;
+}
+
+.row-container > *:not(:last-child){
+    margin-right: 1em;
+}
+
+.row-container-reverse{
+    flex-direction: row-reverse;
+}
+
+.row-container-reverse > *:not(:last-child){
+    margin-left: 1em;
+}
+
+.column-container{
+    flex-direction: column;
+}
+
+.column-container > *:not(:last-child){
+    margin-bottom: 1em;
+}
+
+.column-container-reverse{
+    flex-direction: column-reverse;
+}
+
+.column-container-reverse > *:not(:last-child){
+    margin-top: 1em;
+}

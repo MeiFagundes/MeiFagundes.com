@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PolarisAI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/home.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/Mei.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+</head>
+    <body>
+        <nav>
+            <div class="nav-wrapper color-accent-gradient">
+                <img src="PolarisAI-logo.png" alt="" srcset="">
+            </div>
+        </nav>
+
+        <main>
+            <div id="main-content">
+                <div id="query" class="z-depth-1 hoverable color-accent-card">
+                    <h2>PolarisAI API test</h2>
+
+                    <div id="query-input">
+                        <div class="input-field col s6">
+                            <input id="query-text" type="text">
+                            <label for="query-text">Ask me anything...</label>
+                        </div>
+                        <a id="send-btn" class="waves-effect color-accent waves-light btn"><i class="material-icons right">send</i>send</a>
+                    </div>
+                </div>
+
+                <div id="loading-message">
+                    <p>Awaiting response from Azure server...</p>
+                    <div class="preloader-wrapper big active">
+                        <div class="spinner-layer spinner-blue">
+                            <div class="circle-clipper left">
+                            <div class="circle"></div>
+                            </div><div class="gap-patch">
+                            <div class="circle"></div>
+                            </div><div class="circle-clipper right">
+                            <div class="circle"></div>
+                            </div>
+                        </div>
+                    
+                        <div class="spinner-layer spinner-red">
+                            <div class="circle-clipper left">
+                            <div class="circle"></div>
+                            </div><div class="gap-patch">
+                            <div class="circle"></div>
+                            </div><div class="circle-clipper right">
+                            <div class="circle"></div>
+                            </div>
+                        </div>
+                    
+                        <div class="spinner-layer spinner-yellow">
+                            <div class="circle-clipper left">
+                            <div class="circle"></div>
+                            </div><div class="gap-patch">
+                            <div class="circle"></div>
+                            </div><div class="circle-clipper right">
+                            <div class="circle"></div>
+                            </div>
+                        </div>
+                    
+                        <div class="spinner-layer spinner-green">
+                            <div class="circle-clipper left">
+                            <div class="circle"></div>
+                            </div><div class="gap-patch">
+                            <div class="circle"></div>
+                            </div><div class="circle-clipper right">
+                            <div class="circle"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="response" class="z-depth-1 hoverable color-accent-card">
+                    
+                    <p id="response-text"></p>
+                </div>
+            </div>
+        </main>
+        
+        <footer class="page-footer color-accent-gradient text-shadow-less">
+            <div class="container">
+                <div class="row">
+                <div class="col l6 s12">
+                    <img src="PolarisAI-logo.png" alt="" srcset="">
+                    <p class="grey-text text-lighten-4">A Personal Assistant Engine built with ML.NET.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Powered by</h5>
+                    <ul>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/MeiFagundes/PolarisAI">PolarisAI</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/MeiFagundes/Starlight">Starlight</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                Developed by Mei Fagundes
+                <a class="grey-text text-lighten-4 right" href="https://github.com/MeiFagundes/PolarisAI-Web-Client">Source</a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="materialize/js/materialize.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="JS/Request.js"></script>
+        <script src="JS/home.js"></script>
+    </body>
+</html>

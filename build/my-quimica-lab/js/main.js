@@ -20,7 +20,8 @@ var config = {
 
 // Const
 const PLAYER_VELOCITY = 160;
-const CURRENT_BRANCH = "question_screen";
+const REMOTE_ADDRESS =
+  "https://raw.githubusercontent.com/MyQuimicaLab/MyQuimicaLab.github.io/master";
 
 // Var
 let game = new Phaser.Game(config);
@@ -136,7 +137,7 @@ function create() {
   );
 
   let questionController = new QuestionControllerSingleton(
-    CURRENT_BRANCH,
+    REMOTE_ADDRESS,
     resourceController
   );
 

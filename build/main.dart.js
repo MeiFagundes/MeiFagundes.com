@@ -60773,7 +60773,7 @@ return b.b>=1160?A.kU(A.kZ(s,A.me(A.a([A.f5(s,s,50),A.B5(A.kZ(s,A.nr(A.a([new A.
 $S:85}
 A.um.prototype={
 T(a){var s=null,r=A.f5(s,10,s),q=t.E
-return A.nr(A.a([new A.zL(B.U,new A.qq("assets/images/mei.jpg"),100,s),r,A.f7("Mei Fagundes",s,$.ajH(),s),r,A.me(A.a([new A.mr(s),A.B5(A.a9b(),8),new A.mr(s)],q),B.V,B.aj,B.ay),r,A.kU(A.f7("Formada no CEFET-MG e Consultora de Software na Thoughtworks. Gosto de fazer uns projetinhos bem aleat\xf3rios para testar v\xe1rias tecnologias legais. Caso te interesse, me segue l\xe1 no GitHub ou me mande uma estrelinha atrav\xe9s de um dos projetos listados.",s,$.ajG(),B.es),s,s),r,A.me(A.a([new A.mr(s),A.B5(A.a9b(),8),new A.mr(s)],q),B.V,B.aj,B.ay),r,A.me(A.a([A.a0p(A.BJ(B.zk,B.aK),A.f7("E-mail",s,s,s),new A.XL()),A.a0p(A.BJ(B.jq,B.aK),A.f7("GitHub",s,s,s),new A.XM()),A.a0p(A.BJ(B.zl,B.aK),A.f7("LinkedIn",s,s,s),new A.XN())],q),B.V,B.oG,B.ay),r],q),B.V,B.bt)}}
+return A.nr(A.a([new A.zL(B.U,new A.qq("assets/images/mei.jpg"),100,s),r,A.f7("Mei Fagundes",s,$.ajH(),s),r,A.me(A.a([new A.mr(s),A.B5(A.a9b(),8),new A.mr(s)],q),B.V,B.aj,B.ay),r,A.kU(A.f7("Formada no CEFET-MG e Mobile Developer na Thoughtworks. Gosto de fazer uns projetinhos bem aleat\xf3rios para testar v\xe1rias tecnologias legais. Caso te interesse, me segue l\xe1 no GitHub ou me mande uma estrelinha atrav\xe9s de um dos projetos listados.",s,$.ajG(),B.es),s,s),r,A.me(A.a([new A.mr(s),A.B5(A.a9b(),8),new A.mr(s)],q),B.V,B.aj,B.ay),r,A.me(A.a([A.a0p(A.BJ(B.zk,B.aK),A.f7("E-mail",s,s,s),new A.XL()),A.a0p(A.BJ(B.jq,B.aK),A.f7("GitHub",s,s,s),new A.XM()),A.a0p(A.BJ(B.zl,B.aK),A.f7("LinkedIn",s,s,s),new A.XN())],q),B.V,B.oG,B.ay),r],q),B.V,B.bt)}}
 A.XL.prototype={
 $0(){return A.ke("mailto:mei@meifagundes.com")},
 $S:0}
